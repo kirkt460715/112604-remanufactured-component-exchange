@@ -1,0 +1,31 @@
+[
+  {
+    "id": "pallet-d",
+    "intake_day": 6,
+    "labels": [
+      "L-10",
+      "L-11"
+    ],
+    "carrier_count": 2
+  },
+  {
+    "id": "verify-L10",
+    "label": "L-10",
+    "plate": null,
+    "type_observed": "motor-M6",
+    "day": 7
+  },
+  {
+    "id": "verify-L11",
+    "label": "L-11",
+    "plate": "old-76",
+    "type_observed": "motor-M6",
+    "day": 7
+  },
+  {
+    "id": "plate-fix",
+    "label": "L-10",
+    "plate": "old-60",
+    "day": 11
+  }
+]

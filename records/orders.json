@@ -1,0 +1,34 @@
+[
+  {
+    "id": "advance-1",
+    "client": "site-a",
+    "sent_serial": "R-141",
+    "return_type": "motor-M6",
+    "deposit_cents": 78000,
+    "due": 14
+  },
+  {
+    "id": "advance-2",
+    "client": "site-a",
+    "sent_serial": "R-144",
+    "return_type": "motor-M6",
+    "deposit_cents": 78000,
+    "due": 17
+  },
+  {
+    "id": "switch-2",
+    "from": "advance-1",
+    "to": "advance-2",
+    "old_plate": "old-76",
+    "requested": 9
+  },
+  {
+    "id": "price-rule",
+    "whole_credit": 78000,
+    "component_credit": {
+      "housing": 12000,
+      "rotor": 25000
+    },
+    "category": "motor-M6"
+  }
+]

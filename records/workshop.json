@@ -1,0 +1,43 @@
+[
+  {
+    "id": "check-10",
+    "label": "L-10",
+    "inspected_scope": [
+      "housing"
+    ],
+    "accepted": [
+      "housing"
+    ],
+    "day": 8
+  },
+  {
+    "id": "check-11",
+    "label": "L-11",
+    "inspected_scope": [
+      "housing",
+      "rotor"
+    ],
+    "accepted": [
+      "housing",
+      "rotor"
+    ],
+    "day": 8
+  },
+  {
+    "id": "paid-10",
+    "order": "advance-1",
+    "label": "L-10",
+    "scope": [
+      "housing"
+    ],
+    "credit_paid": 12000,
+    "day": 9
+  },
+  {
+    "id": "whole-10",
+    "label": "L-10",
+    "scope": "whole",
+    "reusable": true,
+    "day": 12
+  }
+]
